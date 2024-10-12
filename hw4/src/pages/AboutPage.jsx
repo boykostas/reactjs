@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './AboutPage.css';
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="page">
       <h1>О нас</h1>
       <nav>
-        <Link to="/">Перейти на Главную страницу</Link>
+        <Link to="/">Главная страница</Link>
       </nav>
     </div>
   );
